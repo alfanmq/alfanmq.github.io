@@ -86,7 +86,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding : 75px 75px;
-  background-image: url(indexpicture/kenalan.jpg);
+  background-image: url(file:///C:/Users/Alfin/Downloads/html_lesson/indexpicture/kenalan.jpg);
   background-size: cover;
 }
 .kenalan-wrapper2 {
@@ -164,7 +164,7 @@ a {
   text-align: center;
   height: 700px;
   padding : 50px 75px 75px 75px;
-  background-image: url(indexpicture/hobby.jpg);
+  background-image: url(file:///C:/Users/Alfin/Downloads/html_lesson/indexpicture/hobby.jpg);
   background-size: cover;
 }
 .hobby-heading {
@@ -231,7 +231,7 @@ a {
   background-color: white;
   padding : 75px 85px;
   text-align: right;
-  background-image: url(indexpicture/jurnal.jpg);
+  background-image: url(file:///C:/Users/Alfin/Downloads/html_lesson/indexpicture/jurnal.jpg);
   background-size: cover;
 }
 .jurnal-wrapper2 {
