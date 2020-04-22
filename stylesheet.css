@@ -351,3 +351,8 @@ footer p {
   color: #b3aeb5;
   font-size: 12px;
 }
+.iconme {
+  widht: 30px;
+  display: inline-block;
+  float: left;
+}
