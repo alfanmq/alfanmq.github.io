@@ -50,6 +50,7 @@ a {
 /*######################################################*/
 /* ############### FOOTER FOOTER ######################*/
 /*######################################################*/
+/*
 .animation-wrapper3 {
   height: 130px;
   text-align: center;
@@ -77,6 +78,7 @@ a {
   75%  {background-color:black; left:450px;; top:0px;}
   100% {background-color:grey; left:0px; top:0px;}
 }
+*/
 /*######################################################*/
 /* ############### KENALAN KENALAN ######################*/
 /*######################################################*/
@@ -110,8 +112,6 @@ a {
 .kenalan-tulisan p {
   margin-bottom: 3px;
   color: black;
-  border: 2px solid black;
-  border-radius: 4px;
   padding: 10px;
 }
 .kenalan-tombol a {
@@ -123,7 +123,6 @@ a {
   opacity: 1;
   border-radius: 4px;
   background-color: white;
-  border: 2px solid black;
 }
 .kenalan-wrapper a:hover {
   border: 2px solid black;
@@ -132,6 +131,7 @@ a {
 /*######################################################*/
 /* ############### FOOTER FOOTER ######################*/
 /*######################################################*/
+  /*
 .animation-wrapper {
   height: 130px;
   text-align: center;
@@ -159,54 +159,42 @@ a {
   75%  {background-color:grey; left:-450px;; top:0px;}
   100% {background-color:black; left:0px; top:0px;}
 }
+*/
 /*######################################################*/
 /* ############### HOBBY HOBBY ######################*/
 /*######################################################*/
 .hobby-wrapper {
   padding-bottom: 50px;
   text-align: center;
-  height: 700px;
+  width: 100%;
   padding : 50px 75px 75px 75px;
   background-color: #f1f2f6;
   /*background-image: url(indexpicture/hobby.jpg);
   background-size: cover;*/
 }
-.hobby-heading {
-  margin: 0px 0px 50px 0px;
-}
-.hobby-heading h2 {
+.hobby-wrapper h2 {
   color: black;
+  font-size: 45px;
   margin: 0;
-  color: black;
-  font-size: 50px;
-}
-.induk-kategori {
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 10px;
 }
 .kategori {
   border: 2px solid black;
   border-radius: 4px;
-  padding: 10px;
+  margin: 20px;
   display: inline-block;
-}
-.kategori-gambar {
-  position: relative;
-}
-.kategori-gambar p {
-  color: black;
-  opacity: 0.5;
-  position: absolute;
   width: 100%;
-  top: 95px;
-  font-size: 30px;
-  font-weight: normal;
+  max-width: 400px;
+}
+.kategori img{
+  width: 300px;
+  height: 300px;
 }
 .des-gambar {
   font-size: 14px;
   color: black;
   margin-bottom: 40px;
+  height: 150px;
+  padding: 20px;
 }
 .tbl-gambar {
   padding: 15px 40px;
@@ -215,7 +203,6 @@ a {
   cursor: pointer;
   border-radius: 4px;
   opacity: 1;
-  border: 2px solid black;
 }
 .tbl-gambar:hover {
   opacity: 0.5;
@@ -226,10 +213,9 @@ a {
 /*######################################################*/
 .jurnal-wrapper {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100%;
   background-color: white;
-  padding : 75px 85px;
+  padding : 75px;
   text-align: right;
   background-color: #dfe4ea;
   /*
@@ -238,75 +224,73 @@ a {
   */
 }
 .jurnal-wrapper2 {
-  position: absolute;
+  height: auto;
+  display: inline-block;
   right: 75px;
-  width: 400px;
 }
-.jurnal-judul h1 {
+.jjudul {
+  margin-top: 30px;
+}
+.jjudul h1 {
   font-size: 45px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: black;
   text-align: right;
 }
-.jurnal-tulisan {
-  text-align: right;
+.jtulisan{
+  width: 100%;
+  max-width: 400px;
+  display: inline-block;
+  margin-bottom: 30px;
 }
-.jurnal-tulisan p {
-  margin-bottom: 3px;
+.jtulisan p {
   color: black;
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 10px;
 }
-.jurnal-tombol a {
+.jtombol {
+  margin-bottom: 30px;
+}
+.jtombol a {
   text-align: center;
   margin: 20px 0;
   padding: 12px 24px;
   color: black;
-  display: inline-block;
   opacity: 1;
   border-radius: 4px;
   background-color: white;
   text-align: right;
 }
-.jurnal-tombol a:hover {
+.jtombol a:hover {
   opacity: 0.5;
   background-color: white;
   text-align: right;
+  border: 2px solid black;
 }
 /*######################################################*/
 /* ############### FOOTER FOOTER ######################*/
 /*######################################################*/
 .akhir-wrapper {
-  padding-left: 5%;
-  padding-right: 5%;
   background-color: #f1f2f6;
   text-align: center;
-  height: 500px;
+  padding: 75px 0;
 }
 .akhir-wrapper2 {
-  padding-bottom: 50px;
-  padding-top: 50px;
   color: black;
-  border: 2px solid black;
   border-radius: 4px;
-  padding: 10px;
+  width: 100%;
+}
+.kelas {
+  display: inline-block;
+  max-width: 420px;
+  width: 100%;
+  vertical-align: top;
+  margin-bottom: 40px;
+  padding: 20px;
 }
 .judul-akhir{
   font-size: 30px;
 }
-.kelas {
-  float: left;
-  width: 33%;
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 10px;
-}
 .text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
   font-size: 15px;
   color: black;
 }
@@ -323,14 +307,19 @@ textarea {
   width:50%;
   padding:20px;
   border:1px solid #dee7ec;
-  background-color: black;
+  background-color: white;
   color: black;
-  opacity: 0.5;
+  opacity: 1;
   border-radius: 4px;
 }
 .contact-submit:hover {
-  opacity: 1;
-  background-color: black;
+  opacity: 0.5;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.contactcontents {
+  margin: 50px;
 }
 /*######################################################*/
 /* ############### FOOTER FOOTER ######################*/
@@ -349,7 +338,7 @@ footer p {
 }
 .kelas-icon {
   display: inline-block;
-  margin: 35px;
+  margin: 0 35px 35px 35px;
 }
 .iconme {
   width: 50px;
