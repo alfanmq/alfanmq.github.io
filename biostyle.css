@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/*######################################################*/
+/* ############### HEADER HEADER ######################*/
+/*######################################################*/
+
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+.header-left {
+  float: left;
+  margin-left: 25px;
+}
+.header-left img {
+  height: 60px;
+  margin: 10px;
+}
+.header-left img:hover {
+  height: 60px;
+  background-color: grey;
+}
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+.header-right a {
+  line-height: 60px;
+  padding: 10px 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+.header-right a:hover {
+  background-color: grey;
+}
+
+/*######################################################*/
+/* ############### KENALAN KENALAN ######################*/
+/*######################################################*/
+
+.kenalan-wrapper {
+  position: relative;
+  width: 100%;
+  padding : 50px 75px;
+  background-color: #0c2461;
+}
+.kenalan-wrapper3 {
+  text-align: center;
+}
+.kenalan-kolom{
+  width: 100%;
+  display: inline-block;
+}
+.kesatu {
+  max-width: 500px;
+}
+.kedua {
+  max-width: 650px;
+}
+.kenalan-judul h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.kenalan-tulisan2 p {
+  margin-bottom: 3px;
+  color: white;
+  padding: 10px;
+  text-align: justify;
+}
+.kenalan-tulisan p {
+  margin-bottom: 3px;
+  color: white;
+  padding: 10px;
+  text-align: justify;
+}
+/*######################################################*/
+/* ############### ANIMASI ######################*/
+/*######################################################*/
+
+.animation-wrapper3 {
+  height: 130px;
+  text-align: center;
+}
+.animation-wrapper4 {
+  display: inline-block;
+}
+.animation3 {
+  margin: 15px 15px;
+  width: 100px;
+  height: 100px;
+  background-color: #0c2461;
+  position: relative;
+  animation-name: example3;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example3 {
+  0%   {background-color:#0c2461; left:0px; top:0px;}
+  25%  {background-color:black; left:-450px;; top:0px;}
+  50%  {background-color:#0c2461; left:0px; top:0px;}
+  75%  {background-color:black; left:450px;; top:0px;}
+  100% {background-color:#0c2461; left:0px; top:0px;}
+}
+
+/*######################################################*/
+/* ############### ANIMASI ######################*/
+/*######################################################*/
+
+.animation-wrapper {
+  height: 130px;
+  text-align: center;
+  background-color: white;
+}
+.animation-wrapper2 {
+  display: inline-block;
+}
+.animation {
+  margin: 15px 15px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example1 {
+  0%   {background-color:black; left:0px; top:0px;}
+  25%  {background-color:#0c2461; left:450px;; top:0px;}
+  50%  {background-color:black; left:0px; top:0px;}
+  75%  {background-color:#0c2461; left:-450px;; top:0px;}
+  100% {background-color:black; left:0px; top:0px;}
+}
+
+/*######################################################*/
+/* ############### AKHIR AKHIR ######################*/
+/*######################################################*/
+
+.akhir-wrapper {
+  background-color: #0c2461;
+  text-align: center;
+  padding: 40px 0;
+}
+.akhir-wrapper2 {
+  border-radius: 4px;
+  width: 100%;
+}
+.kelas {
+  display: inline-block;
+  max-width: 350px;
+  width: 100%;
+  vertical-align: top;
+  margin: 0px 20px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  height: 380px;
+  border-radius: 10px
+}
+.judul-akhir{
+  font-size: 30px;
+  margin: 20px 0 30px 0;
+}
+.text-contents {
+  font-size: 15px;
+  text-align: justify;
+  margin: 20px;
+}
+.aboutme {
+  border-radius: 75px;
+  height: 130px;
+  width: 130px;
+}
+.aboutme:hover{
+  animation: shake 5s infinite;
+}
+.tambahan-akhir {
+  font-size: 12px
+}
+textarea {
+  width:100%;
+  padding:20px;
+  font-size:18px;
+  border:1px solid black;
+}
+.contact-submit {
+  width:50%;
+  padding:20px;
+  background-color: #0c2461;
+  color: white;
+  opacity: 1;
+  border-radius: 4px;
+}
+.contact-submit:hover {
+  opacity: 0.5;
+  color: black;
+  background-color: #0c2461;
+  border: 2px solid black;
+}
+.kelas-icon {
+  display: inline-block;
+  margin: 0 35px 35px 35px;
+  text-align: center;
+}
+.iconme {
+  width: 50px;
+  padding: 0px 5px;
+}
+.iconme:hover{
+  animation: shake 5s infinite;
+}
+@keyframes shake {
+ 10% { transform: translate(-4px, -8px) rotate(-.5deg); }
+ 20% { transform: translate(7px, 2px) rotate(-2.5deg); }
+ 30% { transform: translate(-5px, -2px) rotate(2.5deg); }
+ 40% { transform: translate(-4px, -2px) rotate(.5deg); }
+ 50% { transform: translate(4px, -1px) rotate(-2.5deg); }
+ 60% { transform: translate(1px, -6px) rotate(3.5deg); }
+ 70% { transform: translate(-6px, 7px) rotate(.5deg); }
+ 80% { transform: translate(2px, 1px) rotate(1.5deg); }
+ 90% { transform: translate(7px, 6px) rotate(-2.5deg); }
+ 0%, 100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+/*######################################################*/
+/* ############### FOOTER FOOTER ######################*/
+/*######################################################*/
+
+footer {
+  padding: 10px;
+  height: 60px;
+  text-align: center;
+}
+footer p {
+  position: relative;
+  color: #b3aeb5;
+  font-size: 12px;
+}
